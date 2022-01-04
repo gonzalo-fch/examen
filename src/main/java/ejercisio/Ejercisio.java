@@ -32,8 +32,9 @@ public class Ejercisio {
             if(buscarPrimos(vector[i])){
                 primo= vector[i];
                 vectorPrimos[coordenada]=primo;
+                coordenada++;
             }
-            coordenada++;
+            
         }
 
         }
